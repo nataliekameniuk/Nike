@@ -1,0 +1,157 @@
+
+
+    @font-face {
+        font-family: 'Museo Sans Rounded 100';
+        src: url('fonts/MuseoSansRounded100.woff');
+    }
+* {
+    box-sizing: border-box;
+  }
+
+
+.card {
+    width: 686px;
+min-height: 391px;
+box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+border-radius: 10px;
+background-color: #111a28;
+padding-left:20px;
+padding-right: 56px;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.image {
+    width: 66.6%;
+    /* height: 340px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* min-height: 390px; */
+    min-height: 100%;
+}
+
+img {
+    object-fit: contain;
+    /* height: 100%;  */
+    /* padding-bottom: 70px; */
+}
+
+.bullets {
+    display: flex;
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+}
+
+.bullet {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-top: 70px;
+}
+
+.black {
+    background-color: #1f273f;
+}
+
+.black:hover {
+    border: 2px solid #535964;
+    width: 12px;
+    height: 12px;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.red {
+    background-color: #ed3333;
+}
+
+.blue {
+    background-color: #29e3ea;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+}
+
+.title {
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded 100";
+font-size: 24px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.48px;
+margin-bottom: 15px;
+}
+
+.description {
+    opacity: 0.54;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded 100";
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.28px;
+margin-bottom: 24px;
+}
+
+.rating {
+    margin-bottom: 27px;
+}
+.footer {
+    margin-top: 29px;
+}
+
+.button {
+    display: inline-block;
+    min-width: 184px;
+    min-height: 40px;
+    border: 1px solid #ffffff;
+    background-color: #4c525a;
+    opacity: 0.26; 
+    color: #e1e1e1;
+    font-family: "Museo Sans Rounded 100";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.28px;
+text-align: center;
+padding: 5px;
+}
+
+.gray {
+    opacity: 0.59;
+}
+
+
+select {
+    min-width: 69px;
+min-height: 32px;
+border: 1px solid #ffffff;
+background-color: #111a28;
+opacity: 0.26;
+color: #e1e1e1;
+font-family: "Museo Sans Rounded 100";
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.28px;
+padding:5px;
+}
